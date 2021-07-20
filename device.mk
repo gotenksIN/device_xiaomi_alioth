@@ -191,8 +191,7 @@ PRODUCT_PACKAGES += \
     ParanoidDoze
 
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
-    ro.sensor.pickup=xiaomi.sensor.pickup \
-    ro.sensor.proximity=true
+    ro.sensor.pickup=xiaomi.sensor.pickup
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
