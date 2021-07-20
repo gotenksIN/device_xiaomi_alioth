@@ -99,6 +99,7 @@ vendor/etc/audio_effects.conf|49e00ca08a1cc3688d2f88bbf67fae5a5ebeabb4
 vendor/etc/audio_effects.xml|1c693ab0f2b0838c434ea6e36d304c7b1f15c28d
 vendor/etc/audio_io_policy.conf|2b38e2a34de25c2da90cba29851da3b33b42327a
 vendor/etc/audio_platform_info_intcodec.xml|e92ca8f1da14867d9e8711067713a0fd4559f111
+vendor/etc/audio_policy_volumes.xml|b6c0faeb54ac8f02c7b2f0cf6e3e4740d21e5386
 vendor/etc/cirrus.cfg|a2d9bf923d3d736a58baaacf23e3b406a9fd854b
 vendor/etc/mixer_paths.xml|42e0cb32b31579fc438211ee39e323ca0b32af35
 vendor/etc/mixer_paths_overlay_dynamic.xml|893f2ccd59194fc6e57ed47ad26e74b1ddf2d574
@@ -1182,7 +1183,7 @@ vendor/lib64/vendor.qti.hardware.factory@1.1.so
 vendor/lib/libmmosal.so
 vendor/lib64/libmmosal.so
 
-# NFC - from MIUI
+# NFC - MIUI
 vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service|b97e3db589d296d2453de627c225bd94795c2c99
 vendor/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc|ef06783d034eb2db2ceded7f2333f189feb42afb
 vendor/etc/libnfc-nxp_RF.conf|4fbc1ee7ede5ab587671258d178b0f6e171428b1
@@ -1952,6 +1953,7 @@ vendor/firmware/vehicle_collision_RTP.bin|61b77d243f8427ef7c15a109a6c366e904cf30
 vendor/firmware/vehicle_dacia_RTP.bin|b7062d237ac7fd63134997291b84b27c193fb90f
 vendor/firmware/vehicle_moto_RTP.bin|2b170c938802d26ddc8383280ecc1a65e2b8c53c
 vendor/firmware/vehicle_plane_RTP.bin|349523f5aa7e9cd5ccf68792d854e89608c563ec
+
 # VPP
 vendor/bin/vppservice
 vendor/etc/init/vppservice.rc
