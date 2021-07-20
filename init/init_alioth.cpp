@@ -56,11 +56,6 @@ void load_dalvikvm_properties() {
 void load_redmi_k40() {
     property_override("ro.product.model", "M2012K11AC");
     property_override("ro.product.brand", "Redmi");
-    property_override("ro.product.device", "alioth");
-    property_override("ro.product.name", "alioth");
-    property_override("ro.product.board", "alioth");
-    property_override("ro.product.vendor.name", "alioth_global");
-    property_override("ro.product.vendor.device", "alioth");
     property_override("ro.product.vendor.marketname", "Redmi K40");
     property_override("ro.product.vendor.manufacturer", "Xiaomi");
     property_override("ro.product.vendor.brand", "Redmi");
@@ -70,11 +65,6 @@ void load_redmi_k40() {
 void load_poco_f3() {
     property_override("ro.product.model", "M2012K11AG");
     property_override("ro.product.brand", "POCO");
-    property_override("ro.product.name", "alioth");
-    property_override("ro.product.device", "alioth");
-    property_override("ro.product.board", "alioth");
-    property_override("ro.product.vendor.name", "alioth_global");
-    property_override("ro.product.vendor.device", "alioth");
     property_override("ro.product.vendor.marketname", "POCO F3");
     property_override("ro.product.vendor.manufacturer", "Xiaomi");
     property_override("ro.product.vendor.brand", "POCO");
@@ -84,11 +74,6 @@ void load_poco_f3() {
 void load_xiaomi_mi11x() {
     property_override("ro.product.model", "M2012K11AI");
     property_override("ro.product.brand", "Mi");
-    property_override("ro.product.name", "aliothin");
-    property_override("ro.product.device", "aliothin");
-    property_override("ro.product.board", "aliothin");
-    property_override("ro.product.vendor.name", "aliothin");
-    property_override("ro.product.vendor.device", "aliothin");
     property_override("ro.product.vendor.marketname", "Mi 11X");
     property_override("ro.product.vendor.manufacturer", "Xiaomi");
     property_override("ro.product.vendor.brand", "Mi");
